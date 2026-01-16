@@ -18,17 +18,17 @@ const HomeRootLayout = () => {
       }} />
       <Tabs.Screen name="saved" options={{
         title: 'Saved',
-        headerShown: true,
+        // headerShown: true,
         tabBarIcon: ({ color }) => <EvilIcons name="heart" size={27} color={color} />
       }} />
         <Tabs.Screen name="inbox" options={{
         title: 'Inbox',
-        headerShown: true,
+        // headerShown: true,
         tabBarIcon: ({ color }) => <Ionicons name="chatbubbles-outline" size={24} color={color} />
       }} />
         <Tabs.Screen name="profile" options={{
         title: 'Profile',
-        headerShown: true,
+        // headerShown: true,
         tabBarIcon: ({ color }) => <FontAwesome name="user-o" size={24} color="black" />
       }} />
     </Tabs>
